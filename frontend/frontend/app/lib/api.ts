@@ -1,8 +1,6 @@
-// Change this to your Codespace's forwarded backend URL, e.g.
-// https://your-codespace-name-8000.app.github.dev
-// Set it via an environment variable so it's easy to change without editing code.
+
 export const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+  process.env.NEXT_PUBLIC_API_URL || "https://food-web-lrn7.onrender.com";
 
 export type LgaRiskMapEntry = {
   gid_2: string;
